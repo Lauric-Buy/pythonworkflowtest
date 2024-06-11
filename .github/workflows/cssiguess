@@ -1,0 +1,7 @@
+pythonworkflowtest/.github/workflow/
+    variable1/
+        var.txt
+    variable2/
+        var.txt
+    resultcheck/
+        result.txt
