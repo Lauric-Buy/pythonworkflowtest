@@ -15,9 +15,9 @@ def compare_vars(var1, var2):
         return "Les variables sont différentes."
 
 # Chemins vers les fichiers contenant les variables
-variable1_path = '/path/to/your/repo/variable1/var.txt'
-variable2_path = '/path/to/your/repo/variable2/var.txt'
-result_path = '/path/to/your/repo/resultcheck/result.txt'
+variable1_path = .github/workflows/variable1.py
+variable2_path = .github/workflows/variable2.py
+result_path = .github/workflows/resultcheck.py
 
 # Lire les variables
 var1 = read_var(variable1_path)
