@@ -1,1 +1,1 @@
-print ("Salut tout le monde")
+print ("Salut tout le CERN")
