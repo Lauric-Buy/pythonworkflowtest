@@ -2,7 +2,7 @@ FROM python
 
 WORKDIR /
 
-COPY ./src/pythonstart.py .
+COPY pythonworkflowtest/ .
 
 LABEL authors="Buy"
 
