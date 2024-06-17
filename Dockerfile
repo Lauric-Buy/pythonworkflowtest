@@ -2,10 +2,10 @@ FROM python
 
 WORKDIR /
 
-COPY ./pythonworkflowtest/ .
+COPY ./src/resultcheck.py .
 
 LABEL authors="Buy"
 
 EXPOSE 8076
 
-ENTRYPOINT ["python", "pythonstart.py"]
+ENTRYPOINT ["python", "resultcheck.py"]
