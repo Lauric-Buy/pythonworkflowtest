@@ -16,5 +16,5 @@ jobs:
       uses: aquasecurity/trivy-action@0.20.0
       with:
         scan-type: 'fs'
-        scan-ref: ''
+        scan-ref: 'src/process.py'
         trivy-config: trivy.yaml
