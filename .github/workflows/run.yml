@@ -23,6 +23,6 @@ jobs:
       - name: Run Trivy vulnerability scanner in fs mode
         uses: aquasecurity/trivy-action@0.20.0
         with:
-          image-ref: 'docker pull ghcr.io/lauric-buy/pythonworkflowtest:main'
+          image-ref: 'ghcr.io/lauric-buy/pythonworkflowtest:main'
           format: 'json'
 
