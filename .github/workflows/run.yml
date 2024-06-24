@@ -20,9 +20,4 @@ jobs:
       - name: Display Python version
         run: PYTHONPATH=src python src/resultcheck.py 
 
-      - name: Run Trivy vulnerability scanner in fs mode
-        uses: aquasecurity/trivy-action@0.20.0
-        with:
-          image-ref: 'ghcr.io/lauric-buy/pythonworkflowtest:main'
-          format: 'json'
 
